@@ -1,0 +1,17 @@
+{
+  "name": "ytcloneproject",
+  "version": "1.0.0",
+  "description": "This is roughly a clone of YouTube, made to learn BackEnd in depth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yt",
+    "YouTube",
+    "backend",
+    "clone"
+  ],
+  "author": "Shivam",
+  "license": "ISC"
+}
