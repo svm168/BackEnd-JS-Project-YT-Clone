@@ -22,10 +22,19 @@ It's contents are copy-pasted from a git ignore generator which is present onlin
 
 #### Dependency:
 - Always a dependency.
-- Command: npm i nodemon
+- Command: npm i nodemon- Comes under the section of dependencies in package.json
 - Comes under the section of dependencies in package.json
 
 #### Dev-Dependency:
 - A dependency in development phase but not taken in production. (Makes our project light)
 - Command: npm i -D nodemon
 - Comes under the section of dev-dependencies in package.json
+
+### prettier:
+- Downloading prettier package as a dev dependency (with -D).
+- It is considered a good practice in organisations where a large number of devs code together. If devs don't use prettier, then someone will have 2 spaces while someone will have 4 for tab. This will generate thousands of useless conflicts while trying to merge codes. Thus, prettier saves a lot of time and effort.
+- Command for installation: npm i -D prettier
+
+#### Setting up prettier:
+- Make a .prettierrc.json file and write the settings you want in your entire code. You can use some generator on internet for this and make changes as you need.
+- Make a .prettierignore file (don't need to make it .json) and write the files you don't want to use prettier on. This usually contains files where prettier might destroy the functionality by changing the file structure. This can also be generated from internet.
